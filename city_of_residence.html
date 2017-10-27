@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>City of Residence</title>
+    <meta name="description" content="Page for associating a superhero with their city.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+
+    <form action="city_of_residence_PDO.php" method="post">
+
+      <label for="superhero_name_for_HTML">Superhero:</label>
+      <input type="text" name="name_of_superhero_for_PHP" id="superhero_name_for_HTML">
+      <br>
+      <label for="city_of_operation_for_HTML">City where they operate:</label>
+      <input type="text" name="city_of_operation_for_PHP" id="city_of_operation_for_HTML">
+      <br>
+
+      <input type="submit" value="Associate City to Hero">
+
+    </form>
+
+    <ul>
+      <li><a href="secret_identities.html">Back to Secret Identities page.</a></li>
+      <li><a href="enemies.html">Click here to add Enemy info.</a></li>
+      <li><a href="index.html">Click here for the Landing page.</a></li>
+    </ul>
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+  </body>
+
+</html>
