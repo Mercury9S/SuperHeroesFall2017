@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sidekicks</title>
+    <meta name="description" content="Page for associating a sidekick to their associated superhero.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+
+    <form action="Sidekicks_PDO.php" method="post">
+
+      <label for="sidekick_name_for_HTML">Sidekick Name:</label>
+      <input type="text" name="sidekick_name_for_PHP" id="sidekick_name_for_HTML">
+      <br>
+      <label for="associated_superhero_for_HTML">Superhero:</label>
+      <input type="text" name="associated_superhero_for_PHP" id="associated_superhero_for_HTML">
+      <br>
+
+      <input type="submit" value="Associate Sidekick to Hero">
+
+    </form>
+
+    <ul>
+      <li><a href="secret_identities.html">Back to Secret Identities page.</a></li>
+      <li><a href="city_of_residence.html">Click here to add City info.</a></li>
+      <li><a href="enemies.html">Click here to add villain info.</a></li>
+      <li><a href="index.html">Click here for the Landing page.</a></li>
+    </ul>  
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+  </body>
+
+</html>
+
